@@ -1,0 +1,25 @@
+.Ticket .bodyDiv form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.Ticket .bodyDiv form .Input{
+    outline: none;
+    border: 1px solid #6c757d4a !important;
+    border-radius: 4px !important;
+    padding: 6px 10px !important;
+    color: #495057 !important;
+}
+.Ticket .bodyDiv button{
+    margin-left: 0;
+    margin-right: auto;
+}
+.Ticket .close button{
+    background-color: #294d73!important;
+    border: #294d73!important;
+}
+.Ticket .green{
+    color: #fff;
+    border-color: #2db74c!important;
+    background-color: #2db74c!important;
+}

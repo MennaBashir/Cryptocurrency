@@ -1,0 +1,89 @@
+.report .alert1,
+.pageTicket .alert1{
+    color: #2c5e71 !important;
+    background-color: #cde2ff !important;
+    border-color: transparent !important;
+    border-left: 5px solid #3d84e5 !important;
+    list-style-type: none;
+}
+.pageTicket{
+    margin-top: 110px !important;
+}
+.report .alert2{
+    color: #721c24 !important;
+    border-color: transparent !important;
+    background-color: #f8d7da !important;
+    border-left: 5px solid #fb3f51 !important;
+    list-style-type: none;
+}
+.ticket .green{
+    display: block;
+    margin-left: auto;
+    margin-bottom: 22px
+}
+.ticket .green,
+.pageTicket .green{
+    color: #fff;
+    border-color: #2db74c!important;
+    background-color: #2db74c!important;
+}
+.ticket .green:hover{
+    border-color: #238f3a!important;
+    background-color: #238f3a!important;
+    box-shadow: none!important
+}
+.ticket .tablediv table{
+    font-size: 15px;
+}
+.ticket .tablediv table thead{
+    border-top: 1px solid #dee2e6 
+}
+.ticket .tablediv table thead th{
+    padding: 10px 22px
+}
+.pageTicket .blue{
+    background-color: #294d73!important;
+    border: #294d73!important;
+    position: relative;
+    top: -77px;
+    right: -89px;
+}
+
+.pageTicket h2 em{
+    color: #495057b8;
+}
+.modal-backdrop{
+    position: relative !important;
+    --bs-backdrop-bg: #fff !important;
+}
+.pageTicket .box{
+margin-bottom: 20px;
+border: 1px solid #0d6efd;
+border-left: 6px solid #0d6efd;
+}
+.pageTicket .box .min-box{
+    background-color: #0d6efd !important;
+    margin-right: 8px;
+    font-size: 11px !important;
+}
+.pageTicket .box .min-box span{
+    font-size: 15px;
+    color: #343a40;
+    margin-right: 3px;
+}
+.pageTicket .box2{
+    height: fit-content !important;
+}
+.pageTicket .Alert,
+.pageTicket .Alert1{
+    background-color: #294d73!important;
+    font-size: 15px;
+    color: white !important;
+    margin-left: 10px;
+    margin-top: 9px;
+    padding-left: 28px;
+   
+}
+.pageTicket .Alert{
+    display: none;
+}

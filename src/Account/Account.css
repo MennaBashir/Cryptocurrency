@@ -1,0 +1,203 @@
+a{
+    text-decoration: none !important;
+}
+.account .divide{
+    float: none;
+    margin: 0 auto;
+    margin-top: 3px!important
+}
+.signin{
+    color: #4d4d4d;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    max-width: 85%;
+    background-color: #f5f5f5;
+    height: auto;
+    border: solid 1px #eee;
+    padding: 30px 20px;
+}
+.signin .title{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.signin .title h4{
+    margin-top: 7px;
+    margin-bottom: 12px;
+}
+.signin .title h3{
+    letter-spacing: -.5px;
+    font-weight: 700
+}
+.signin .title h5{
+    text-align: left;
+}
+.signin .form-group,
+.setting .form-group{
+    margin-bottom: 8px;
+}
+.signin .form-group label,
+.setting .form-group label{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 17px;
+}
+.signin .Input,
+.setting .Input{
+    display: flex;
+    align-items: center;
+}
+.signin .Input span,
+.setting .Input span{
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #dee2e6;
+    border-radius: 6px 0 0 6px;
+    border-right-width: 0;
+    color: #212529;
+}
+.setting{
+    overflow: hidden;
+}
+.signin .Input input,
+.setting .Input input{
+    outline: none;
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    width: 90%;
+    border-radius: 0 6px 6px 0;
+    background-color: #fff;
+    transition: .3s
+}
+.setting .Input input{
+    margin-right: 20px;
+}
+.signin .Input input:focus,
+.signin .Input input:hover,
+.setting .Input input:focus,
+.setting .Input input:hover{
+    border-color: #0d6efd;
+}
+.signin form a{
+    font-size: 17px;
+}
+.signin form button,
+.setting form button{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 9px;
+    font-weight: 700;
+    gap: 5px;
+    align-items: center
+}
+.signin .register p a{
+padding-left: 2px
+}
+.signin .footer {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: -10px;
+}
+.signin .footer span{
+    padding: 2px;
+}
+/* Privacy start */
+.privacy,
+.services{
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 85% !important;
+    margin-top: 30px;
+    border-radius: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #343a40;
+    transition: .3s linear
+}
+.privacy,
+.services {
+    display: none;
+}
+.privacy h5,
+.services h5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.privacy h5 svg,
+.services h5 svg{
+    cursor: pointer;
+}
+.show2{
+    background-color: #052c65 !important;
+    height: 150vh !important;
+
+}
+.account{
+    background-color: #0d6efd ;
+    padding-top: 22px;
+    height: fit-content;
+    min-height: 100vh;
+}
+.privacy .min-info p,
+.services .min-info p{
+    font-size: 17px;
+    line-height: 1.5;
+}
+.privacy button,
+.services button{
+    background-color: #294d73;
+    color: white;
+    display: block;
+    margin-left: auto;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-weight: 600;
+    border-color: transparent;
+}
+/* Privacy end */
+.read span{
+    margin-left: 5px
+}
+.read input{
+    cursor: pointer;
+}
+.wrong input{
+border-color: #dc3545 !important;
+}
+/* start setting */
+.setting h1 + div{
+    background-color: white !important;
+    color: #212529 !important;
+    font-size: 16px !important;
+    border: none !important;
+}
+.setting .box1{
+    margin-left: 20px;
+}
+.setting .box2{
+    margin-top: 15px
+}
+.setting .box2 ul li {
+    list-style-type: disc !important
+}
+.setting .box2 ul li span{
+    margin-left: 5px;
+}
+.MODAL h1{
+    margin: 0 !important;
+    font-size: 22px;
+}
+.MODAL button:first-child{
+    background-color: #294d73!important;
+    border-color: transparent!important;
+}
+.modal-open .account{
+    background-color: #052c65 ;
+}
+/* end setting */

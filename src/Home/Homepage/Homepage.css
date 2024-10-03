@@ -1,0 +1,221 @@
+.home{
+    margin-top:100px
+}
+.home .Bigbox{
+    margin-right:0px;
+    margin-left: 20px;
+    row-gap: 20px !important;
+    margin-bottom: 100px;
+}
+.home .box1 .Text{
+    border-left: 5px solid #e89f29;
+    color: #856404 !important;
+}
+.home .box1 .Text a{
+    font-weight: 600;
+    color: #007bff !important;
+}
+.box4 .imag a img{
+    width: 50px
+}
+.home .box{
+    border: none;
+    border-right: 20px solid white !important;
+}
+.home .box2{
+    border-color: transparent;
+    border-left: 5px solid #3d84e5;
+    background-color: rgb(227 243 254);
+    padding-bottom: 5px;
+    color: #324b55;
+    font-size: 15px;
+    padding-top: 7px
+}
+.home .box2 p{
+    margin-bottom: 3px;
+}
+.home .box2 a:not(.order){
+    cursor: pointer;
+    margin-left: 3px;
+    background-color: #007bff!important;
+    border-color: #007bff!important;
+}
+.home .box3{
+    border-color: transparent;
+    border-left: 5px solid #2db74c;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: hwb(147deg 82% 3% / 40%);
+    color: #155724;
+}
+.home .box3 ul{
+    list-style: none;
+    font-size: 15px;
+    padding: 3px;
+    padding-bottom: 16px !important;
+    padding-top: 10px
+}
+.home .box3 ul li{
+    margin-bottom: 5px;
+}
+.home .box3 ul li span:not(.Green){
+    background-color: #fb3f51 !important;
+    padding: 3px 6px
+}
+.home .box3 ul li .Green{
+    background-color: #2db74c!important;
+    padding: 3px 6px
+}
+.home .box3 ul li a{
+color: #219139;
+float: right;
+
+}
+.home .box3 ul li a:hover{
+    text-decoration: underline !important;
+}
+.home .box4{
+    border-color: transparent;
+    border-left: 5px solid #fb3f51;
+    background-color: #ffedef!important;
+    color: #721c24!important;
+    height: fit-content;
+    font-size: 15px;
+    padding-bottom: 16px !important;
+
+}
+.home .box4 .Red{
+    background-color: #fb3f51!important;
+    border-color: #fb3f51!important;
+    margin-left: 3px
+}
+.home .box5{
+    padding: 0;
+    margin-right: 30px;
+}
+.home .box5 .Header,
+.home .box6 .Header,
+.home .box6 .Footer{
+    background-color: #192e45;
+    color: white;
+}
+.home .box5 img{
+margin-right: -2px;
+}
+.home .box5 ul{
+    list-style: none;
+    padding-left: 15px;
+}
+.home .box5 ul li p:first-child{
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 2px;
+}
+.home .box5 ul li p:last-of-type{
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+.home .box5 ul li small{
+    font-size: x-small;
+    background-color: #192e45;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+.home .box6{
+    padding: 0;
+    height: fit-content;
+}
+.home .box6 .Header{
+    background-color: #192e45;
+    color: white;
+}
+.home .box6 .Footer{
+    font-size: 13px;
+    display: flex;
+    gap: 7px;
+}
+.home .box6 .Colors{
+    list-style: none;
+    padding-left: 15px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+
+}
+.home .box6 .Colors li{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.home .box6 .Colors li span:first-child{
+    width: 40px;
+    height: 12px;
+}
+.home .box6 .Chart{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    gap: 1px;
+    height: 120px;
+    text-align: center;
+    padding-left: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+}
+.home .box6 .Chart li{
+    width: 22px;
+    display: block;
+    margin-top: auto;
+}
+.home .box6 .Chart li span{
+    font-size: 7px;
+    font-weight: bold;
+}
+/* Start Seller */
+.box .chead{
+    background-color: #192e45;
+    color: white;
+    display: flex;
+    gap: 5px;
+    padding: 12px 25px;
+}
+.box .cbody h4{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.box .cbody h4 span{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: emoji;
+}
+.box .cbody .openT{
+    margin-right: 6px;
+    color: #fff;
+    border-color: #2db74c!important;
+    background-color: #2db74c!important;
+}
+/* End Seller */
+/* Start Term */
+.term{
+    font-size: 15px;
+}
+.term p:first-child{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 26px;
+    font-family: serif;
+    text-decoration: underline;
+}
+.term p:last-child{
+    text-decoration: underline;  
+}
+/* End Term */

@@ -1,0 +1,181 @@
+h1{
+    text-align: center;
+    margin-top: 25px !important;
+    margin-bottom: 12px !important
+}
+h1 + div{
+    border-color: transparent !important;
+    border-left: 5px solid #3d84e5 !important;
+    background-color: #cde2ff !important;
+    color: #2c5e71 !important;
+    font-size: 15px;
+}
+h1 + div li{
+    list-style: none;
+}
+.formPage{
+    font-size: 15px !important
+}
+.formPage .row{
+    align-items: center !important
+}
+.formPage button,
+.sells button,
+.formEmail button,
+.table1 td .green{
+    color: #fff;
+    border-color: #2db74c!important;
+    background-color: #2db74c!important;
+}
+.formPage button{
+    margin-top: 10px !important;
+}
+.formPage button:hover,
+.sells button:hover,
+.formEmail button:hover{
+    border-color: #238f3a!important;
+    background-color: #238f3a!important;
+    box-shadow: none!important;
+}
+.sells{
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    height: 80px;
+    margin-top: 12px;
+}
+.sells button{
+    margin-top: 19px;
+    margin-left: 25px;
+}
+.formPage .form-control{
+    color: #495057 !important;
+    appearance: auto !important;
+}
+.formEmail{
+    display: flex;
+    gap: 10px;
+    color: #495057 !important;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.formEmail input{
+    width: fit-content !important;
+}
+.table1{
+    border: 1px solid #dee2e6;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    color: #fff;
+    overflow-x: auto;
+}
+.table1 table{
+    width: 100%;
+    min-width: 1000px;
+}
+.table1 td,
+.table1 th{
+    border-right: 1px solid #dee2e6 !important;
+}
+.table1 th span{
+    color: white;
+   background-color:  #294d73!important;
+    font-size: 11px;
+    border-radius: 5px;
+    padding-left: 5px;
+    display: block;
+    width: fit-content !important
+}
+.table1 tr{
+    vertical-align: middle !important
+}
+.table1 td img{
+    margin-right: 5px
+}
+.table1 .circle{
+    color: #fb3f51 !important;
+}
+.table1 .secure{
+    color: #28a745;
+}
+.table1 td .blue{
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+    font-size: 14px !important;
+    color: white !important;
+}
+.table1 td .orange{
+    background-color: #ff6b2f !important;
+    border-color: #ff6b2f !important;
+    font-size: 14px !important;
+}
+.table1 td .green{
+    font-size: 16px !important
+}
+.table1 td .red{
+    background-color: #fb3f51 !important;
+    border-color: #fb3f51 !important;
+    font-size: 14px !important;
+    color: white !important;
+
+}
+.table1 .create{
+    color: #007bff !important
+}
+/* money balance */
+.money{
+    background-color: #6c757d26 !important;
+}
+.money p{
+text-align: center
+}
+.money img{
+margin: auto;
+display: block;
+width: 250px;
+}
+.money .cancel,
+.InfoM button:first-child{
+    background-color: #294d73 !important;
+    border-color: #294d73 !important;
+}
+.Trans{
+    background-color: #007bff;
+    border-color: transparent !important
+}
+.container-fluid{
+    margin-top: 100px;
+}
+.sellsActive{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* info */
+.InfoM h1{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    font-size: 21px;
+}
+.InfoM .item{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.InfoM .item:not(:last-child){
+    border-bottom: 1px solid #33333321;
+}
+.InfoM .item h5{
+    font-size: 18px !important;
+    color: #333;
+}
+.InfoM .item span{
+    margin-right: 100px;
+    font-size: 15px;
+    color: #333;
+}
+.InfoM .item:hover{
+    background-color: #eee;
+}

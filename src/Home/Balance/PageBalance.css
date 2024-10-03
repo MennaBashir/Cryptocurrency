@@ -1,0 +1,155 @@
+.balance .add{
+    border: none !important;
+    background-color: white !important;
+    color: white !important;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #eee !important;
+    padding-bottom: 16px;
+    display: flex;
+    gap: 5px;
+    padding-left: 11px;
+    margin-top: 30px;
+}
+.balance .add button:first-child{
+    color: #fff;
+    background-color: #0062cc !important;
+    border-color: #005cbf !important;
+}
+.balance .add button:first-child:hover{
+    background-color: #0d6efd !important;
+    border-color: #0d6efd !important 
+}
+.balance .add button:last-child,
+.Form button{
+    color: #fff;
+    border-color: #2db74c!important;
+    background-color: #2db74c!important;
+}
+.balance .add button:last-child:hover,
+.Form button:hover{
+    border-color: #238f3a!important;
+    background-color: #238f3a!important;
+    box-shadow: none!important;
+}
+.Form .Formdiv{
+    display: flex;
+    flex-direction: column;
+}
+.Text {
+    font-size: 15px;
+}
+
+.Text img{
+    width: 55px;
+    margin-left: 3px;
+    cursor: pointer;
+    margin-top: -12px;
+}
+.deposite{
+    overflow-x: auto;
+}
+.deposite table{
+    width: 100%;
+    min-width: 960px;
+}
+.deposite table th{
+    border: 2px solid #dee2e6;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+.Form select{
+    height: 50px;
+    padding: 12px 10px;
+    border-radius: 8px;
+    color: #343a40;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #6c757da6;
+}
+.Form select option{
+    color: #343a40;
+    font-size: 18px;
+}
+/* Start payment */
+.payment{
+    word-break: break-all;
+}
+.payment h1 + div{
+    border-color: transparent !important;
+    background-color: white !important;
+    color: #212529 !important;
+    font-size: 15px;
+}
+.payment .box1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+.payment .box1 .barcode{
+    padding: 30px;
+    border: 5px solid #000;
+    height: fit-content;
+}
+.payment .box1 .txt p{
+    margin-top: -10px;
+}
+.payment .box1 .txt p .blue,
+.payment .box1 .txt p .green,
+.payment .box1 .txt p .red,
+.payment .box1 .txt p .dark{
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+    color: white
+}
+.payment .box1 .txt p .blue{
+    background-color: #007bff;
+}
+.payment .box1 .txt p .green{
+    background-color: #2db74c ;
+    border: none !important
+}
+.payment .box1 .txt p .red{
+    background-color: #fb3f51;
+
+}
+.payment .box1 .txt p .dark{
+    background-color: #294d73;
+
+}
+.payment .box1 .Info p{
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 230px !important;
+}
+.payment .box1 .Info p:first-child span{
+    margin-right: 38px;
+}
+.payment .box1 .Info p:nth-child(2) span{
+    margin-right: 23px;
+}
+.payment .box1 .Info p:last-child span{
+    margin-right: -4px;
+}
+.payment .box2{
+    background-color: #6c757d08;
+    padding-top: 20px;
+}
+.payment .box2 ul li{
+    list-style-type:  disc !important;
+}
+.payment .addBox .Img{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    align-items: center;
+    margin-left: 30px;
+    gap: 20px;
+}
+.payment .addBox .Red{
+    background-color: #fb3f51!important;
+    border-color: #fb3f51!important;
+    color: #fff;
+}
+/* End Payment */
